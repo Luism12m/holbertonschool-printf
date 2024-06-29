@@ -21,4 +21,17 @@ int main(void) {
 3.Compile su código: Compile su código fuente, vinculándolo con los archivos de implementación. Por ejemplo, si su archivo fuente es "main.c" y los archivos de implementación son "print_char.c", "print_string.c", "print_decimal.c" y "your_header_file.h", puede compilar usando: gcc - o tu_programa main.c print_char.c print_string.c print_decimal.c
 4.Ejecute su ejecutable: ./your_program
 
+Uso
+
+Ejemplo básico
+
+#include "your_header_file.h"
+
+int main(void) {
+    _printf("Displaying a straightforward sentence.\n");
+    return 0;
+}
+Output: Displaying a straightforward sentence.
+
+
 
