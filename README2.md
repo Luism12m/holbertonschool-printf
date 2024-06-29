@@ -12,3 +12,8 @@ Para ejecutar la función _printf en su programa, siga estos pasos:
 1.Incluya el archivo de encabezado: incluya el archivo de encabezado "your_header_file.h" en su archivo fuente, donde desea utilizar la función _printf. #incluye "tu_archivo_encabezado.h"
 
 2.Llame a la función _printf: use la función _printf en su código con el especificador de formato y los argumentos deseados. He aquí un ejemplo:
+
+int main(void) {
+    _printf("Displaying a straightforward sentence.\n");
+    return 0;
+}
