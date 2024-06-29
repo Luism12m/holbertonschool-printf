@@ -36,8 +36,11 @@ Output: Displaying a straightforward sentence.
 Especificadores de formato
 
 *Representa un caracter %c
+
 *Representa una cadena %s
+
 *Representa un decimal %d
+
 *Representa un entero %i
 
 
