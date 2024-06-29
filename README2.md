@@ -9,5 +9,6 @@ int _printf(const char *formato, ...);
 Instrucciones de ejecución
 Para ejecutar la función _printf en su programa, siga estos pasos:
 
-Incluya el archivo de encabezado: incluya el archivo de encabezado "your_header_file.h" en su archivo fuente, donde desea utilizar la función _printf. #incluye "tu_archivo_encabezado.h"
-Llame a la función _printf: use la función _printf en su código con el especificador de formato y los argumentos deseados. He aquí un ejemplo:
+1.Incluya el archivo de encabezado: incluya el archivo de encabezado "your_header_file.h" en su archivo fuente, donde desea utilizar la función _printf. #incluye "tu_archivo_encabezado.h"
+
+2.Llame a la función _printf: use la función _printf en su código con el especificador de formato y los argumentos deseados. He aquí un ejemplo:
