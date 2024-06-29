@@ -43,5 +43,37 @@ Especificadores de formato
 
 *Representa un entero %i
 
+Ejemplo:
 
+#include "your_header_file.h"
+
+int main(void) {
+    _printf("%s", "This sentence is extracted from va_args!\n");
+    return 0;
+}
+Output: This sentence is extracted from va_args!
+
+Valor de Retorno
+
+La función devuelve el recuento de caracteres impresos, excluyendo el byte nulo utilizado para finalizar la salida a cadenas.
+
+Manejo de errores
+
+En caso de uso de tipo incorrecto, la función devolverá un error.
+
+Detalles de Implementacion
+
+La implementación incluye los siguientes archivos fuente:
+
+* _putchar.c: Contiene la implementación de la función _putchar.
+  
+* print_char.c: Contiene la implementación de la función para imprimir caracteres (%c).
+  
+*print_string.c: Contiene la implementación de la función para imprimir cadenas (%s).
+
+*print_decimal.c: Contiene la implementación de las funciones para imprimir decimales (%d y %i).
+
+Autor
+
+Luis Zipa
 
